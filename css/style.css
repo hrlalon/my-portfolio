@@ -80,6 +80,11 @@ nav>ul>li>a {
 
 /* main section styles */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section styles */
 .about {
     padding: 130px;
@@ -103,4 +108,40 @@ nav>ul>li>a {
     text-align: center;
     font-family: Open Sans;
     font-size: 18px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-title {
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    text-align: justify;
+    font-family: Open Sans;
+}
+
+.skills {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: -3px 0px 40px #cecdcd;
+}
+
+.skills-description {
+    color: #757575;
 }
