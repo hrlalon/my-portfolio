@@ -44,9 +44,9 @@ nav>ul>li>a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url(/images/header_bg.png);
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, 20px bottom;
 }
 
 .banner {
@@ -132,6 +132,15 @@ main>section {
     padding: 30px 150px;
 }
 
+.info-description {
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
 .skills-container {
     display: flex;
     justify-content: space-around;
@@ -150,4 +159,11 @@ main>section {
 
 .skills-description {
     color: #757575;
+}
+
+
+.footer-text {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
 }
